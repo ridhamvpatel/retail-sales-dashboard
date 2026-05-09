@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Load the dataset
 df = pd.read_csv('retail_dashboards.csv', encoding='latin-1')
 
-# ---- QUESTION 1: Which region is most profitable? ----
+#QUESTION 1: Which region is most profitable?
 region_profit = df.groupby('Region')['Profit'].sum().sort_values(ascending=False)
 print("Profit by Region:")
 print(region_profit)

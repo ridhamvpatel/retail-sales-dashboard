@@ -6,7 +6,7 @@ top revenue-generating product categories, and the impact of discounting on prof
 
 * Tools Used: Python, pandas, matplotlib
 
-##Business Questions Answered
+## Business Questions Answered
 1. Which region is the most profitable?
 2. Which product category drives the most revenue?
 3. Which regions give the most discounts and how does that affect profit?
